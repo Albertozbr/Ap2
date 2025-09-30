@@ -1,5 +1,6 @@
-#QUESTÃO 01
-##a)
+# QUESTÃO 01
+## a)
+```C
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,3 +26,4 @@ void main(){
 
     troca(aux);
 }
+```
