@@ -31,7 +31,9 @@ void main(){
 }
 ```
 
-## b)
+## b)• Uma função que receba dois números a e b, em seguida, decremente o primeiro e incremente o
+segundo. Dica: a e b devem ser passados por referência.
+
 ```C
 #include <stdio.h>
 #include <stdlib.h>
