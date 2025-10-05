@@ -1,5 +1,6 @@
 # QUESTÃO 01
-## a)Crie um programa para testar as funções a seguir:
+## 1-Crie um programa para testar as funções a seguir:
+## a)
 • Uma função que receba dois números a e b, em seguida, faça a troca destes dois números. Dica:
 a e b devem ser passados por referência.
 
@@ -31,8 +32,8 @@ void main(){
 }
 ```
 
-## b)• Uma função que receba dois números a e b, em seguida, decremente o primeiro e incremente o
-segundo. Dica: a e b devem ser passados por referência.
+## b)
+• Uma função que receba dois números a e b, em seguida, decremente o primeiro e incremente o segundo. Dica: a e b devem ser passados por referência.
 
 ```C
 #include <stdio.h>
