@@ -1,6 +1,5 @@
 # Questão 02
 ```C
-
 #include <stdio.h>
 #include <string.h>
 
@@ -36,4 +35,4 @@ void main()
 
     troca(frase, vogal, tamanho);
 }
-´´´C
+´´´
