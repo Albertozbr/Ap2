@@ -47,5 +47,4 @@ void main()
     troca(&a, &b);
     printf("%d %d", a, b, &a, &b);
 }
-<img width="440" height="280" alt="image" src="https://github.com/user-attachments/assets/6971c5a7-e604-4057-9532-fa2ba1c33111" />
 ´´´
