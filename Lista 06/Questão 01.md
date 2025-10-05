@@ -1,5 +1,8 @@
 # QUESTÃO 01
-## a)
+## a)Crie um programa para testar as funções a seguir:
+• Uma função que receba dois números a e b, em seguida, faça a troca destes dois números. Dica:
+a e b devem ser passados por referência.
+
 ```C
 
 #include <stdio.h>
