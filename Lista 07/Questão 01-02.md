@@ -14,12 +14,10 @@ Faça o teste de mesa do exercício anterior, não deixe de colocar um campo par
 de memória.
 
 Teste de mesa
-```C
-	  i	    j	     p(endereço)	   *p(conteudo do endereço)
-1 	99	   lixo	   -	              -
-2	 99 	 lixo	    lixo	           -
-3	 99	   lixo	     &i	            99
-4	 99	   399	      &i	           99
+
+<img width="435" height="145" alt="image" src="https://github.com/user-attachments/assets/37167c50-b0e5-4073-9cb5-a8913850ee05" />
+
+
 
 Explicação de *p e &i (fiquei em duvida)
 
