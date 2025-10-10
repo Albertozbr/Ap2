@@ -4,19 +4,22 @@ ponteiro para essa variável. Usando ponteiro, retorne a soma de todos os elemen
 ```C
 #include <stdio.h>
 
-int soma(int v[]){
-    
-    int soma = 0;
-     for(int i = 0; i < 5; i++){
+int soma(int v[])
+{
 
-        soma += v[i];
-    }  
-     return soma;
+    int soma = 0;
+    int *p = v; // primeiro elemento do vetor
+    for (int i = 0; i < 5; i++)
+    {
+
+        soma += *(p + i);
+    }
+    return soma;
 }
 
-void main(){
-    int v[] = {1,2,3,4,5};
-    int *p;
+void main()
+{
+    int v[] = {1, 2, 3, 4, 5};
 
-    printf("%d",soma(v));
+    printf("%d", soma(v));
 }
