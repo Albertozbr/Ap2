@@ -14,7 +14,10 @@ void main()
     p = &a;
     c = *p;
 
-    printf("%d", *p);
+    printf("%d\n", a);
+    *p = 10;
+
+    printf("%d", a);
 }
 
 
