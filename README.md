@@ -26,6 +26,7 @@ void main()
         printf("%d ", *(p + i)); // p + v[0]... p + v[1]...
     }
 }
+``` 
 # Questão 08
 Escreva um módulo em C que, usando variáveis locais, declare uma variável inteira e um ponteiro
 para essa variável, e depois altere o valor da variável através do ponteiro.
