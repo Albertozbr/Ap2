@@ -10,7 +10,7 @@ typedef struct
 {
     char nome[50];
     int idade;
-    float media;
+    float media;bbhs
 } aluno;
 
 void main()
