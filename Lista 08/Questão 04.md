@@ -1,6 +1,7 @@
 # Questão 04
 Faça um programa para incluir alunos no arquivo criado no Exercício 3, lembrando que não
 podem existir dois alunos com o mesmo número de matrícula.
+AJUDA DA IA
 ```C
 #include <stdio.h>
 #include <stdlib.h>
@@ -56,7 +57,7 @@ void main()
 
         rewind(f); // volta para o inicio do arquivo, para poder ler tudo novamente pois quando abre o arquivo já vai para o final.
 
-        while (fscanf(f, "%d %49s %49s %f %f", &mat, nome, curso, n1, n2) == 5)
+        while (fscanf(f, "%d %49s %49s %f %f", &mat, nome, curso, &n1, &n2) == 5)
         { // irá ler linha por linha do arquivo e salvar
             if (a.matricula == mat)
             {
@@ -68,7 +69,8 @@ void main()
         if (!duplicada)
         {
 
-            fprintf(f, "Matricula: %d\n Nome: %s\n Curso:%s\n Nota 1:%.2f/Nota 2:%.2f\n", a.matricula, a.nome, a.curso, a.n1, a.n2);
+           fprintf(f, "%d %s %s %.2f %.2f\n", a.matricula, a.nome, a.curso, a.n1, a.n2);
+
         }
     }
     fclose(f);
