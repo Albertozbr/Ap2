@@ -1,6 +1,7 @@
 # Questão 04
 Faça um programa para incluir alunos no arquivo criado no Exercício 3, lembrando que não
 podem existir dois alunos com o mesmo número de matrícula.
+
 AJUDA DA IA
 ```C
 #include <stdio.h>
